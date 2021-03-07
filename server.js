@@ -29,7 +29,6 @@ app.get('/:shortUrl', async (req, res) => {
   res.redirect(shortUrl.full)
 })
 
-
 app.listen(PORT, () => {
     console.log(`You are connected to ${PORT}`)
 });
